@@ -31,28 +31,42 @@
     "id": 5,
     "categoryId": 1,
     "drawer": {"fullName": "Vaysa Tok", "phone": 73912414110},
-    "registration_number": "#ja 023 65po",
+    "registration_number": "#ja 423 15po",
     "coordinates": {"latitude": 37.7723, "longitude": -122.456}
   },
   {
     "id": 6,
     "categoryId": 3,
     "drawer": {"fullName": "Ivan Molch", "phone": 73914938110},
-    "registration_number": "#ja 023 65po",
+    "registration_number": "#ja 049 61po",
     "coordinates": {"latitude": 37.7763, "longitude": -122.476}
   },
   {
     "id": 7,
     "categoryId": 3,
-    "drawer": {"fullName": "Sergio Toskov", "phone": 73912414110},
-    "registration_number": "#ja 023 65po",
-    "coordinates": {"latitude": 37.7964, "longitude": -122.432}
+    "drawer": {"fullName": "Sergio Necheporenko", "phone": 73912414110},
+    "registration_number": "#ja 462 34ka",
+    "coordinates": {"latitude": 37.7914, "longitude": -122.462}
   },
   {
     "id": 8,
     "categoryId": 2,
-    "drawer": {"fullName": "Sergio Toskov", "phone": 73912414110},
-    "registration_number": "#ja 023 65po",
-    "coordinates": {"latitude": 37.7234, "longitude": -122.412}
+    "drawer": {"fullName": "Kostya Pryamoj", "phone": 73912414110},
+    "registration_number": "#ja 962 65po",
+    "coordinates": {"latitude": 37.7814, "longitude": -122.422}
+  },
+  {
+    "id": 9,
+    "categoryId": 2,
+    "drawer": {"fullName": "Sergio Pryamoj", "phone": 73912414110},
+    "registration_number": "#ja 731 65po",
+    "coordinates": {"latitude": 37.7964, "longitude": -122.432}
+  },
+  {
+    "id": 10,
+    "categoryId": 1,
+    "drawer": {"fullName": "Nikolai Bistrii", "phone": 73912414110},
+    "registration_number": "#ja 123 34ka",
+    "coordinates": {"latitude": 37.79624, "longitude": -122.482}
   }
 ]
