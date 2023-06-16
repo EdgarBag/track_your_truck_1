@@ -20,7 +20,7 @@ const SettingsPage = () => {
         <DefaultPage>
             <View style={styles.body}>
                 <Text style={styles.title}>{t('select_lang', 'Select Language')}</Text>
-                <View>
+                <View style={styles.langsBox}>
                     <Button
                         title="Russian"
                         disabled={lang === 'ru'}

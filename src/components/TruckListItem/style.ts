@@ -12,4 +12,15 @@ export const styles = StyleSheet.create({
     padding: 10,
     marginBottom: 16,
   },
+  title: {
+    opacity: 0.5, color: 'black',
+    fontSize: Dimensions.get('screen').width * 0.035
+  },
+  value: {
+    color: 'black',
+    fontSize: Dimensions.get('screen').width * 0.035,
+    fontWeight: 'bold'
+
+  }
+
 });

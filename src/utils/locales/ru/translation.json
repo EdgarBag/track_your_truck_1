@@ -12,5 +12,6 @@
   "settings": "Настройки",
   "home_page_title": "Главная",
   "search_drop_down_placeholder": "Какую категорию вы ищете",
-  "search_drop_down_select_sent": "Выберите категорию"
+  "search_drop_down_select_sent": "Выберите категорию",
+  "no_trucks_message": "Нет такой категории "
 }

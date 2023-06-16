@@ -27,7 +27,6 @@ const TracksListPage: React.FC<PageProps> = ({ navigation }) => {
                 title={!viewOnMap ? t('button_go_to_map', 'Show On The Map111') : t('button_go_to_truck_list', 'Back to Trucks List111')}
                 onPress={() => setViewOnMap(prevState => !prevState)}
             />
-            <Text></Text>
         </DefaultPage>
     );
 };

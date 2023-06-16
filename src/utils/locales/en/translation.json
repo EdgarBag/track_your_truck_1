@@ -12,5 +12,6 @@
   "settings": "Settings",
   "home_page_title": "Home",
   "search_drop_down_placeholder": "What category are you looking for?",
-  "search_drop_down_select_sent": "Select category"
+  "search_drop_down_select_sent": "Select category",
+  "no_trucks_message": "No such category"
 }

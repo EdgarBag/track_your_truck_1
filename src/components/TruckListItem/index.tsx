@@ -14,19 +14,19 @@ export const Item = ({ item, onPress, }: ItemProps) => {
     const { categories } = useAppSelector(state => state.appState);
     const { t } = useTranslation();
     return (
-        <TouchableOpacity onPress={onPress}  >
+        <TouchableOpacity onPress={onPress}>
             <View style={styles.item}>
                 <View >
-                    <Text style={{ opacity: 0.5 }}>{t('reg_number')}</Text>
-                    <Text> {item.registration_number} </Text>
+                    <Text style={styles.title}>{t('reg_number')}</Text>
+                    <Text style={styles.value}> {item.registration_number} </Text>
                 </View>
                 <View >
-                    <Text style={{ opacity: 0.5 }}>{t('driver_full_name')}: </Text>
-                    <Text> {item.drawer.fullName} </Text>
+                    <Text style={styles.title}>{t('driver_full_name')}: </Text>
+                    <Text style={styles.value}> {item.drawer.fullName} </Text>
                 </View>
                 <View >
-                    <Text style={{ opacity: 0.5 }}>{t('category')}: </Text>
-                    <Text> {categories.find(cat => cat.value === item.categoryId)?.label} </Text>
+                    <Text style={styles.title}>{t('category')}: </Text>
+                    <Text style={styles.value}> {categories.find(cat => cat.value === item.categoryId)?.label} </Text>
                 </View>
             </View>
         </TouchableOpacity>

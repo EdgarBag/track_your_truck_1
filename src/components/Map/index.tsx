@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TouchableOpacity, View } from "react-native";
+import { Platform, Text, TouchableOpacity, View } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 import { styles } from "./style";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
@@ -25,7 +25,7 @@ const Map: React.FC<MapProps> = ({ navigation }: MapProps) => {
                     return (
                         <TouchableOpacity style={{ opacity: cat.value === selectedCategory ? 1 : 0.5 }} onPress={() => onHandlePress(cat.value)} key={i}>
                             <View style={{ flexDirection: 'row' }} >
-                                <Text>{cat.value === 0 ? 'All' : cat.label} </Text>
+                                <Text style={{ color: 'black' }}>{cat.value === 0 ? 'All' : cat.label} </Text>
                                 <View >{manageIcons(cat.categoryName)}</View>
                             </View>
                         </TouchableOpacity>
@@ -34,6 +34,7 @@ const Map: React.FC<MapProps> = ({ navigation }: MapProps) => {
             </View>
 
             <MapView
+                // mapType={Platform.OS == "android" ? "none" : "standard"}
                 style={styles.map}
                 initialRegion={{
                     latitude: 37.78825,

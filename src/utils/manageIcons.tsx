@@ -8,27 +8,32 @@ export const manageIcons = (categoryName: string) => {
             return <TruckSpecialCarAll
                 name="truck-fast"
                 size={20}
+                color={'black'}
             />;
         case Categories.passenger:
             return <Passenger
                 name="taxi"
                 size={16}
+                color={'black'}
             />;
         case Categories.special:
             return <TruckSpecialCarAll
                 name="binoculars"
                 size={20}
+                color={'black'}
             />;
         case Categories.all:
             return <TruckSpecialCarAll
                 name="check-all"
                 size={20}
+                color={'black'}
             />;
 
         default:
             return <TruckSpecialCarAll
                 name="car"
                 size={20}
+                color={'black'}
             />;
     }
 

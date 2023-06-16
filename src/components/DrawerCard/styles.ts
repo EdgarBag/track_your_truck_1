@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 8,
+        color: 'black'
     },
     iconBox: {
         alignSelf: 'center'
@@ -22,6 +23,6 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-around'
     },
     p: {
-        fontSize: Dimensions.get('screen').width * 0.035,
+        fontSize: Dimensions.get('screen').width * 0.035, color: 'black'
     }
 });

@@ -1,6 +1,6 @@
 import React from "react";
 import { useCategories } from "../../hooks/useCategories";
-import { FlatList, RefreshControl } from "react-native";
+import { FlatList, RefreshControl, Text, View } from "react-native";
 import { Item, } from "../TruckListItem";
 import { DropDownCompCategories } from "../DropDownCompCategories";
 import { useAppDispatch, } from "../../redux/hooks";
@@ -8,6 +8,8 @@ import { ITruck } from "../../interfaces/global";
 import { useFilteredTrucks } from "../../hooks/useFilteredTrucks";
 import { setFilteredTracksAction } from "../../redux/features/app-slice";
 import trucks from '../../db/trucks.json';
+import { useTranslation } from "react-i18next";
+import { styles } from "./styles";
 interface TrucksListProps {
     navigation: any;
 }
@@ -15,7 +17,8 @@ interface TrucksListProps {
 const TrucksList: React.FC<TrucksListProps> = ({ navigation }) => {
     const { setCategoriesAction } = useCategories(),
         { filteredTrucks } = useFilteredTrucks(),
-        dispatch = useAppDispatch();
+        dispatch = useAppDispatch(),
+        { t } = useTranslation();
 
 
     const renderItem = ({ item }: { item: ITruck; }) => {
@@ -37,15 +40,19 @@ const TrucksList: React.FC<TrucksListProps> = ({ navigation }) => {
             <DropDownCompCategories
                 setItems={setCategoriesAction}
             />
-            <FlatList
-                style={{ flex: 1, width: '100%' }}
+            {filteredTrucks.length ? <FlatList
+                style={styles.trucksListBox}
                 data={filteredTrucks}
                 renderItem={renderItem}
                 keyExtractor={(item) => item.id.toString()}
                 refreshControl={<RefreshControl
                     refreshing={false}
                     onRefresh={onRefresh} />}
-            />
+            /> :
+                <View style={styles.messageBox}>
+                    <Text style={styles.message}>{t('no_trucks_message')}</Text>
+                </View>
+            }
         </>
     );
 };
