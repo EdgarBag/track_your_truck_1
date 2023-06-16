@@ -1,0 +1,16 @@
+{
+  "button_go_to_map": "Show on the map",
+  "button_go_to_truck_list": "Back to Trucks List",
+  "select_lang": "Select Language",
+  "category": "Category",
+  "phone_number": "Phone Number",
+  "whatsapp_message": "Good afternoon, please tell me what order number you currently have in work",
+  "reg_number": "Reg. Number",
+  "driver_full_name": "Driver Full Name",
+  "truck_details_page_title": "Truck Details",
+  "truck_list_page_title": "Truck List",
+  "settings": "Settings",
+  "home_page_title": "Home",
+  "search_drop_down_placeholder": "What category are you looking for?",
+  "search_drop_down_select_sent": "Select category"
+}

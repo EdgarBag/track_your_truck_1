@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "drawer": {"fullName": "Andrey Petvov", "phone": 79615401110},
+    "registration_number": "#ts 3454 78s",
+    "coordinates": {"latitude": 37.78825, "longitude": -122.4324}
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "drawer": {"fullName": "Petya Sitoski", "phone": 79638411110},
+    "registration_number": "#vc 12 78s",
+    "coordinates": {"latitude": 37.7883, "longitude": -122.443}
+  },
+  {
+    "id": 3,
+    "categoryId": 2,
+    "drawer": {"fullName": "Igor Kudrinski", "phone": 79614419110},
+    "registration_number": "#io 765 78s",
+    "coordinates": {"latitude": 37.7383, "longitude": -122.493}
+  },
+  {
+    "id": 4,
+    "categoryId": 3,
+    "drawer": {"fullName": "Vitalik Dvorovoj", "phone": 73914414110},
+    "registration_number": "#js 231 94s",
+    "coordinates": {"latitude": 37.7583, "longitude": -122.433}
+  },
+  {
+    "id": 5,
+    "categoryId": 1,
+    "drawer": {"fullName": "Vaysa Tok", "phone": 73912414110},
+    "registration_number": "#ja 023 65po",
+    "coordinates": {"latitude": 37.7723, "longitude": -122.456}
+  },
+  {
+    "id": 6,
+    "categoryId": 3,
+    "drawer": {"fullName": "Ivan Molch", "phone": 73914938110},
+    "registration_number": "#ja 023 65po",
+    "coordinates": {"latitude": 37.7763, "longitude": -122.476}
+  },
+  {
+    "id": 7,
+    "categoryId": 3,
+    "drawer": {"fullName": "Sergio Toskov", "phone": 73912414110},
+    "registration_number": "#ja 023 65po",
+    "coordinates": {"latitude": 37.7964, "longitude": -122.432}
+  },
+  {
+    "id": 8,
+    "categoryId": 2,
+    "drawer": {"fullName": "Sergio Toskov", "phone": 73912414110},
+    "registration_number": "#ja 023 65po",
+    "coordinates": {"latitude": 37.7234, "longitude": -122.412}
+  }
+]

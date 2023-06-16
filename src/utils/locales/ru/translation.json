@@ -1,0 +1,16 @@
+{
+  "button_go_to_map": "Показать на карте",
+  "button_go_to_truck_list": "Назад к списку грузовиков",
+  "select_lang": "Выберите язык",
+  "category": "Категория",
+  "phone_number": "Номер Телефона",
+  "whatsapp_message": "Добрый день, подскажите пожалуйста, какой номер заказа у вас сейчас в работе",
+  "reg_number": "Номер ТС ",
+  "driver_full_name": "Имя водителя",
+  "truck_details_page_title": "Детали Водителя",
+  "truck_list_page_title": "Список Грузовиков",
+  "settings": "Настройки",
+  "home_page_title": "Главная",
+  "search_drop_down_placeholder": "Какую категорию вы ищете",
+  "search_drop_down_select_sent": "Выберите категорию"
+}

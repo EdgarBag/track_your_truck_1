@@ -1,0 +1,26 @@
+[
+  {
+    "value": 0,
+    "categoryName": "all",
+    "label": "All Categories",
+    "color": "white"
+  },
+  {
+    "value": 1,
+    "label": "Trucks",
+    "categoryName": "truck",
+    "color": "blue"
+  },
+  {
+    "value": 2,
+    "label": "Passenger Car",
+    "categoryName": "passenger",
+    "color": "green"
+  },
+  {
+    "value": 3,
+    "label": "Special",
+    "categoryName": "special",
+    "color": "black"
+  }
+]
