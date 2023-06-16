@@ -34,7 +34,6 @@ const Map: React.FC<MapProps> = ({ navigation }: MapProps) => {
             </View>
 
             <MapView
-                // mapType={Platform.OS == "android" ? "none" : "standard"}
                 style={styles.map}
                 initialRegion={{
                     latitude: 37.78825,
